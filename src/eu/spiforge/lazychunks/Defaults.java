@@ -8,8 +8,8 @@ public class Defaults {
 	
 	static {
 		DEFAULT_CONFIG = new JsonObject();
-		DEFAULT_CONFIG.addProperty(Consts.CONFIG_KEY_MESSAGE_JOIN, "&e%NAME% has joined the game");
-		DEFAULT_CONFIG.addProperty(Consts.CONFIG_KEY_MESSAGE_QUIT, "&e%NAME% has left the game");
+		DEFAULT_CONFIG.addProperty(Consts.CONFIG_KEY_MESSAGE_JOIN, "&e%NAME% joined the game");
+		DEFAULT_CONFIG.addProperty(Consts.CONFIG_KEY_MESSAGE_QUIT, "&e%NAME% left the game");
 		DEFAULT_CONFIG.addProperty(Consts.CONFIG_KEY_FORMATTING_COLOR_TRANSLATIONKEY, "&");
 	}
 }
